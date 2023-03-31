@@ -32,7 +32,7 @@ $(async function() {
                     tiles: [BASE_URL + '/tiles/{z}/{x}/{y}.pbf'],
                     maxzoom: 14
                 });
-                        map.addLayer({
+                map.addLayer({
                     id: 'stopnames-layer',
                     source: 'stops',
                     'source-layer': 'stops',

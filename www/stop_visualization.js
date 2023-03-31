@@ -54,8 +54,13 @@ $(async function() {
                         "visibility": "visible",
                         "text-variable-anchor": ['top', 'bottom', 'left', 'right'],
                         'text-radial-offset': 0.8,
+                    },
+                    "paint": {
+                        "text-color": "rgba(0,0,0,1)",
+                        "text-halo-color": "rgba(255,255,255,1)",
+                        "text-halo-width": 2
                     }
-        
+                
                 });
             }
         );
